@@ -41,7 +41,7 @@ class UploadImage {
 
 
 
-                val  request : Request =   Request . Builder ().url("https://dev-patient.xpresscure.com/api/patient/patient_img_url").post(requestBody).build()
+                val  request : Request =   Request . Builder ().url("url").post(requestBody).build()
 
                 val  response : Response =  client.newCall(request).execute()
 
